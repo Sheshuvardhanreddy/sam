@@ -1,0 +1,189 @@
+
+body,p,h3 ,h2{
+    color: #181e1b;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the whole page */
+body {
+    
+    background-color: #edeaea; /* Change this to your preferred background color */
+    color: #333; /* Change this to your preferred text color */
+    font-family: 'popping', sans-serif;
+}
+
+/* Style the header/navigation */
+header {
+    background-image: url('header-bg.jpg'); /* Replace with your image path */
+    background-size:auto;
+    background-position: center;
+    color: #a13232;
+    background-color: rgb(123, 117, 156);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/37/03/76/1000_F_237037682_ECmknE5NaKoTDw5vMiOj3dzR1YVKhaVm.jpg"); /* Replace with your hero image */
+    background-size: 1600px;
+    text-align: center;
+    color: #fff;
+    padding: 100px 100px;
+    height: 700px;;
+    
+}
+
+.hero h2 {
+    padding: 100px 0px;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600; /* CTA button background color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Style the key features section */
+.features {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    font-size: 24px;
+}
+
+/* Style the about section */
+.about {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Style the contact section */
+.contact {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-form button {
+    top: 100px;
+    margin-top: 10px;
+    margin-left: 700px;
+    background-color: #9124d9;
+    color: #fff;
+    border: 0px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+/* Style the footer */
+footer {
+    background-color: #2797cf; /* Footer background color */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Style the footer text */
+footer p {
+    font-size: 14px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+
+    /* Center-align the header navigation links */
+    .nav-links {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .nav-links li {
+        margin-right: 10px;
+    }
+
+    /* Adjust padding in the hero section for better readability */
+    .hero {
+        padding: 80px 0;
+    }
+
+    /* Reduce font size for better readability on smaller screens */
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    /* Increase padding and font size in feature section for better readability */
+    .features {
+        padding: 40px 0;
+    }
+
+    .feature h3 {
+        font-size: 20px;
+    }
+
+    /* Increase padding in about and contact sections for better spacing */
+    .about,
+    .contact {
+        padding: 40px 0;
+    }
+}
